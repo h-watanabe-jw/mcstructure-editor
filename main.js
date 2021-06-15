@@ -8,8 +8,8 @@ $(function() {
         if (error) {
           throw error;
         }
-
-        document.getElementById('textarea').value = JSON.stringify(data));
+        var outputJson = JSON.stringify(data));
+        document.getElementById('textarea').value = outputJson;
 
       });
     }
