@@ -1,0 +1,212 @@
+{
+  "name": "",
+  "value": {
+    "format_version": {
+      "type": "int",
+      "value": 1
+    },
+    "size": {
+      "type": "list",
+      "value": {
+        "type": "int",
+        "value": [
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    "structure": {
+      "type": "compound",
+      "value": {
+        "block_indices": {
+          "type": "list",
+          "value": {
+            "type": "list",
+            "value": [
+              {
+                "type": "int",
+                "value": [
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  3,
+                  2,
+                  1,
+                  4,
+                  1,
+                  3,
+                  1,
+                  1,
+                  3,
+                  3,
+                  2,
+                  4,
+                  1,
+                  4,
+                  2,
+                  2,
+                  3,
+                  3,
+                  2,
+                  3
+                ]
+              },
+              {
+                "type": "int",
+                "value": [
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1
+                ]
+              }
+            ]
+          }
+        },
+        "entities": {
+          "type": "list",
+          "value": {
+            "type": "end",
+            "value": []
+          }
+        },
+        "palette": {
+          "type": "compound",
+          "value": {
+            "default": {
+              "type": "compound",
+              "value": {
+                "block_palette": {
+                  "type": "list",
+                  "value": {
+                    "type": "compound",
+                    "value": [
+                      {
+                        "name": {
+                          "type": "string",
+                          "value": "minecraft:gilded_blackstone"
+                        },
+                        "states": {
+                          "type": "compound",
+                          "value": {}
+                        },
+                        "version": {
+                          "type": "int",
+                          "value": 17825808
+                        }
+                      },
+                      {
+                        "name": {
+                          "type": "string",
+                          "value": "minecraft:end_bricks"
+                        },
+                        "states": {
+                          "type": "compound",
+                          "value": {}
+                        },
+                        "version": {
+                          "type": "int",
+                          "value": 17825808
+                        }
+                      },
+                      {
+                        "name": {
+                          "type": "string",
+                          "value": "minecraft:gold_block"
+                        },
+                        "states": {
+                          "type": "compound",
+                          "value": {}
+                        },
+                        "version": {
+                          "type": "int",
+                          "value": 17825808
+                        }
+                      },
+                      {
+                        "name": {
+                          "type": "string",
+                          "value": "minecraft:air"
+                        },
+                        "states": {
+                          "type": "compound",
+                          "value": {}
+                        },
+                        "version": {
+                          "type": "int",
+                          "value": 17825808
+                        }
+                      },
+                      {
+                        "name": {
+                          "type": "string",
+                          "value": "minecraft:stonebrick"
+                        },
+                        "states": {
+                          "type": "compound",
+                          "value": {
+                            "stone_brick_type": {
+                              "type": "string",
+                              "value": "default"
+                            }
+                          }
+                        },
+                        "version": {
+                          "type": "int",
+                          "value": 17825808
+                        }
+                      }
+                    ]
+                  }
+                },
+                "block_position_data": {
+                  "type": "compound",
+                  "value": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "structure_world_origin": {
+      "type": "list",
+      "value": {
+        "type": "int",
+        "value": [
+          -1,
+          4,
+          3
+        ]
+      }
+    }
+  }
+}
