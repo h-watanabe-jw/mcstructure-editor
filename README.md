@@ -1,3 +1,3 @@
-# mcstructure-editer
+# mcstructure-editor
 <br>
 by @rollphes
