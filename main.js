@@ -1,3 +1,6 @@
+var copy = document.getElementById('copy');
+
+
 $(function() {
   $('#file').change(function(e) {
     var file = e.target.files[0];
@@ -18,7 +21,7 @@ $(function() {
   });
 });
 function copyText() {
-
+  var textarea = document
   // テキストエリアの値を選択
   copyFrom.select();
   // コピーコマンド発行
