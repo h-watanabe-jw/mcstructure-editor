@@ -13,7 +13,7 @@ $(function() {
 
       });
     }
-
+ alert('a');
     reader.readAsArrayBuffer(file);
   });
 });
