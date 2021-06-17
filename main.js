@@ -6,6 +6,7 @@ $(function() {
     var file = e.target.files[0];
     var reader = new FileReader();
     reader.onload = function() {
+      alert('loaded');
       var data = reader.result
       nbt.parse(data, function(error, data) {
         if (error) {
@@ -16,7 +17,6 @@ $(function() {
 
       });
     }
- alert('a');
     reader.readAsArrayBuffer(file);
   });
 });
