@@ -3,6 +3,7 @@ var copy = document.getElementById('copy');
 
 $(function() {
   $('#file').change(function(e) {
+    alert('change');
     var file = e.target.files[0];
     var reader = new FileReader();
     reader.onload = function() {
