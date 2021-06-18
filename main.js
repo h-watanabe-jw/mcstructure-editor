@@ -1,3 +1,6 @@
+var textarea = document.getElementById('textarea');
+
+
 $(function() {
   $('#file').change(function(e) {
     var file = e.target.files[0];
@@ -18,5 +21,11 @@ $(function() {
 });
 
 function copy() {
-
+var copyText = document.getElementsByTagName("textarea")[0];
+  textarea.readOnly = true;
+  copyText.select();
+  textarea.readOnly = false;
+  document.execCommand("copy");
+  window.getSelection().removeAllRanges();
+  alert('コピーしました');
 }
