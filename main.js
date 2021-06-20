@@ -20,12 +20,12 @@ $(function() {
   });
 });
 
-function copy() {
+copy.addEventListener('click', function () {
 var copyText = document.getElementsByTagName("textarea")[0];
   textarea.readOnly = true;
   copyText.select();
   textarea.readOnly = false;
-  copyText.execCommand("copy");
+  document.execCommand("copy");
   window.getSelection().removeAllRanges();
   alert('コピーしました');
 }
