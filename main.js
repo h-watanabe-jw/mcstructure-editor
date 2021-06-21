@@ -1,5 +1,5 @@
 var textarea = document.getElementById('textarea');
-
+var copy = document.getElementById('copy');
 
 $(function() {
   $('#file').change(function(e) {
@@ -21,7 +21,7 @@ $(function() {
 });
 
 copy.addEventListener('click', function () {
-var copyText = document.getElementsByTagName("textarea")[0];
+  var copyText = document.getElementsByTagName("textarea")[0];
   textarea.readOnly = true;
   copyText.select();
   textarea.readOnly = false;
