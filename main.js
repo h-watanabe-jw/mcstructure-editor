@@ -3,6 +3,7 @@ var copy = document.getElementById('copy');
 
 $(function() {
   $('#file').change(function(e) {
+    alert('change');
     var file = e.target.files[0];
     var reader = new FileReader();
     reader.onload = function() {
@@ -28,4 +29,4 @@ copy.addEventListener('click', function () {
   document.execCommand("copy");
   window.getSelection().removeAllRanges();
   alert('コピーしました');
-}
+})
