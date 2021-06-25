@@ -2,7 +2,7 @@ var textarea = document.getElementById('textarea');
 var copy = document.getElementById('copy');
 var inputfile = document.getElementById('file');
 
-alert('js loaded');
+alert('js loaded2');
 
 inputfile.addEventListener('change', function(e) {
 alert('change-v');
