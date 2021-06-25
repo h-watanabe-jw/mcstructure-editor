@@ -1,6 +1,8 @@
 var textarea = document.getElementById('textarea');
 var copy = document.getElementById('copy');
 
+alert('js loaded');
+
 $(function() {
   $('#file').change(function(e) {
     alert('change');
