@@ -5,7 +5,7 @@ var inputfile = document.getElementById('file');
 alert('js loaded3');
 
 inputfile.addEventListener('change', function(e) {
-alert('change-v');
+alert('change');
   var file = e.target.files[0];
     var reader = new FileReader();
     reader.onload = function() {
@@ -18,6 +18,7 @@ alert('change-v');
         document.getElementById('textarea').value = textVal;
       });
     }
+    reeader.readAsArrayBuffer(file);
 });
                           
 copy.addEventListener('click', function () {
