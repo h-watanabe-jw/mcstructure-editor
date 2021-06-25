@@ -18,7 +18,7 @@ alert('change-v');
         document.getElementById('textarea').value = textVal;
       });
     }
-}
+});
                            
 $(function() {
   $('#file').change(function(e) {
