@@ -22,7 +22,10 @@ alert('change-v');
                           
 copy.addEventListener('click', function () {
   var copyText = document.getElementsByTagName("textarea")[0];
+  textarea.readOnly = true;
   copyText.select();
+  textarea.readOnly = false;
   document.execCommand("copy");
+  window.getSelection().removeAllRanges();
   alert('コピーしました');
 });
