@@ -2,10 +2,9 @@ var textarea = document.getElementById('textarea');
 var copy = document.getElementById('copy');
 var inputfile = document.getElementById('file');
 
-alert('js loaded4');
+//alert('js loaded4');
 
 inputfile.addEventListener('change', function(e) {
-  alert('change');
   var file = e.target.files[0];
   var reader = new FileReader();
   reader.onload = function() {
